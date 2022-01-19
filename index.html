@@ -50,6 +50,106 @@
                                         </div>
                                     </div>
                                     <br><a id="buyBtn" onclick="mintNft();" class="mt-4 align-bottom inline-flex items-center justify-center cursor-pointer leading-5 transition-colors duration-150 font-bold focus:outline-none hover:shadow font-sans px-12 py-5 rounded-full text-white bg-primary bg-gradient-to-b from-primary to-primary-light border border-transparent active:bg-primary-hover hover:bg-primary-hover mt-4 bg-green-100"><img class="animate-pulse border-solid border-2 border-light-blue-500 rounded mr-1" src="AVAX%20GUITARS%20NFT%20-%207777%20AXES_files/avaxlogo.png" width="45"> Connect your wallet to Mint!</a><div class="container text-center my-10 md:my-5"><div class="rounded-full bg-black text-white py-5 sm:py-3 px-5 w-auto sm:inline-flex relative mt-0 pt-0 text-md"><div class="sm:flex items-center mb-4 sm:mb-0"><h3 class="text-white mb-0 ml-1 text-sm">ONLY</h3></div><div class="flex items-center sm:ml-3 justify-center text-md"><span class="border-b border-primary text-md">7,041</span><span class="ml-2 opacity-75 text-sm">/ 7,777 LEFT!</span></div></div></div></div></div></div></div></header>
+                
+                
+                
+                                    <style>
+
+                                        /* The Modal (background) */
+                                        .modal {
+                                            display: none; /* Hidden by default */
+                                            position: fixed; /* Stay in place */
+                                            z-index: 1; /* Sit on top */
+                                            padding-top: 100px; /* Location of the box */
+                                            left: 0;
+                                            top: 0;
+                                            width: 100%; /* Full width */
+                                            height: 100%; /* Full height */
+                                            overflow: auto; /* Enable scroll if needed */
+                                            background-color: rgb(0,0,0); /* Fallback color */
+                                            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                                        }
+
+                                        /* The Modal (background) */
+                                        .modal1 {
+                                            display: none; /* Hidden by default */
+                                            position: fixed; /* Stay in place */
+                                            z-index: 1; /* Sit on top */
+                                            padding-top: 200px; /* Location of the box */
+                                            left: 0;
+                                            top: 0;
+                                            width: 100%; /* Full width */
+                                            height: 100%; /* Full height */
+                                            overflow: auto; /* Enable scroll if needed */
+                                            background-color: rgb(0,0,0); /* Fallback color */
+                                            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                                        }
+
+                                    </style>
+
+                                    <div class="modal" id="confirm">
+                                        <div class="bg-gray-900 text-gray-300 rounded-xl" style="width: 80%; margin-left: 10px;">
+                                            <div id="footer-content" class="relative pt-16 pb-12">
+                                                <div class="container xl:max-w-6xl mx-auto px-4">
+                                                    <div class="flex flex-wrap flex-row -mx-4">
+                                                        <div class="max-w-full px-4 w-full">
+                                                            <div class="text-center">
+                                                                <ul class="space-x-3"></ul>
+                                                                <p class="text-white">
+                                                                    Congratulations on minting AVAX GUITARS. You would receive your AXE in a while.
+                                                                    For more enquires click on any of our social accounts to find out more.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="relative">
+                                                <div class="container xl:max-w-6xl mx-auto px-4 py-10 border-t border-gray-200 border-opacity-10">
+                                                    <div class="flex flex-wrap flex-row -mx-4">
+                                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/2 text-center lg:ltr:text-left lg:rtl:text-right mb-6 lg:mb-0 text-white">
+                                                            <p class="text-white">AVAX GUITARS - 7,777 Generative NFT Collection.</p>
+                                                        </div>
+                                                        <div class="flex-shrink max-w-full px-4 w-full lg:w-1/2 lg:ltr:text-left lg:rtl:text-right mb-6 lg:mb-0 text-white">
+                                                            <ul class="space-x-6 text-center lg:ltr:text-right lg:rtl:text-left text-white">
+                                                                <li class="inline-block">
+                                                                    <a target="_blank" class="hover:text-gray-100 text-white underline rockermain" rel="noopener noreferrer" href="https://twitter.com/avaxguitars">Twitter</a>
+                                                                </li>
+                                                                <li class="inline-block">
+                                                                    <a target="_blank" class="hover:text-gray-100 text-white underline rockermain" rel="noopener noreferrer" href="https://discord.gg/vAscsaCTkK">Discord</a>
+                                                                </li>
+                                                                <li class="inline-block">
+                                                                    <a target="_blank" class="hover:text-gray-100 text-white underline rockermain" rel="noopener noreferrer" href="https://avaxpunks.com/">Avax Punks</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="modal1" id="confirm1">
+                                        <div class="bg-gray-900 text-gray-300 rounded-xl" style="width: 80%; margin-left: 10px;">
+                                            <div id="footer-content" class="relative pt-16 pb-12">
+                                                <div class="container xl:max-w-6xl mx-auto px-4">
+                                                    <div class="flex flex-wrap flex-row -mx-4">
+                                                        <div class="max-w-full px-4 w-full">
+                                                            <div class="text-center">
+                                                                <ul class="space-x-3"></ul>
+                                                                <p class="text-white" id="error">
+                                                                    
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                
                                                 
                                                 
                                                 
@@ -180,6 +280,43 @@ neque.</p></div><div class="hidden flex flex-col items-center py-6 lg:h-[32rem] 
         }
     
     });
+    
+    
+    function confirm() {
+        var modal = $("#confirm");
+        var modal1 = document.getElementById("confirm");
+
+        modal1.style.display = "block";
+
+        window.onclick = function(e){
+            if(e.target == modal1){
+                modal1.style.display = "none";
+            }
+        }
+    }
+
+    function confirm1(action) {
+        var modal1 = document.getElementById("confirm1");
+        var etext = $("#error");
+
+        if (action != "connect" ) {
+            etext.html("Error Occured when Minting AVAX GUITARS (AXE). Please Redo the Transaction !.");
+        }
+
+        else {
+            etext.html("There was aan error while connecting your wallet. Try connecting your wallet again");
+        }
+
+
+        modal1.style.display = "block";
+
+        window.onclick = function(e){
+            if(e.target == modal1){
+                modal1.style.display = "none";
+            }
+        }
+    }
+    
 
     async function checkAvaxNetwork(web3) {
         chainId = await web3.eth.getChainId();
@@ -272,6 +409,7 @@ neque.</p></div><div class="hidden flex flex-col items-center py-6 lg:h-[32rem] 
             
         } catch (error) {
             console.error(error);
+            confirm1("connect");
         }
     };
 
@@ -345,10 +483,10 @@ neque.</p></div><div class="hidden flex flex-col items-center py-6 lg:h-[32rem] 
             .then(function(tx){
                 console.log('Transaction Hash ='+tx)
                 console.log('Wallet Inside ='+currentAccount)
-                alert("Avax Guitars Minted successfully");
+                confirm();
             })
             .catch((error) => {
-                alert("Error minting Avax Guiters");
+                confirm1("transfer");
                 console.log('Error during the transaction')
                 console.log(error)
             });
